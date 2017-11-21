@@ -9,4 +9,6 @@ Gem::Specification.new do |s|
   s.files       = ["lib/rake_text.rb"]
   s.homepage    = 'https://github.com/voidplus/rake-text-ruby'
   s.license     = 'MIT'
+  
+  s.add_runtime_dependency 'ruby-stemmer'
 end
